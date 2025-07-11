@@ -4,7 +4,7 @@
 rollno = input("Enter Roll Number: ")
 name = input("Enter Student Name: ")
 
-math = float(input("Enter marks for math:"))
+math = float(input("Enter marks for math:   "))
 eng = float(input("Enter marks for eng: "))
 sci = float(input("Enter marks for sci: "))
 
