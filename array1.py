@@ -1,0 +1,1 @@
+#WAP in python to declare an array and find sum of its element
