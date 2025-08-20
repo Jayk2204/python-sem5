@@ -1,0 +1,17 @@
+lst = [10, 20, 30, 40, 50]
+
+print("Original List:", lst)
+lst.append(60)
+print("After append(60):", lst)
+lst.insert(2, 25)
+print("After insert(2, 25):", lst)
+lst.remove(40)
+print("After remove(40):", lst)
+print("Length of list:", len(lst))
+print("Maximum:", max(lst))
+print("Minimum:", min(lst))
+print("Sum:", sum(lst))
+lst.reverse()
+print("Reversed list:", lst)
+lst.sort()
+print("Sorted list:", lst)

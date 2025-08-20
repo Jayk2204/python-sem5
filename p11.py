@@ -1,0 +1,10 @@
+tup = (10, 20, 30, 20, 40, 50)
+
+print("Tuple:", tup)
+print("Length:", len(tup))
+print("Count of 20:", tup.count(20))
+print("Index of 30:", tup.index(30))
+print("Maximum:", max(tup))
+print("Minimum:", min(tup))
+print("Sum:", sum(tup))
+print("Slicing (1:4):", tup[1:4])

@@ -1,0 +1,12 @@
+text = input("Enter a string: ")
+
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+print("Title Case:", text.title())
+print("Reversed:", text[::-1])
+print("Length:", len(text))
+print("First character:", text[0])
+print("Last character:", text[-1])
+print("Is alphabet:", text.isalpha())
+print("Is digit:", text.isdigit())
+print("Replace spaces with - :", text.replace(" ", "-"))
