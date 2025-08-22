@@ -1,0 +1,11 @@
+f1=open("datafile.txt","w+")
+f1.write("Delhi \n")
+f1.write("Mumbai \n")
+f1.write("Surat \n")
+
+f1.seek(0,0)
+data=f1.readlines()
+lent=len(data)
+print(lent)
+print(data)
+f1.close()
