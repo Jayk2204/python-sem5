@@ -1,5 +1,5 @@
 try:
-    a=input("Enter a Number:-")
+    a=input("Enter a Number:-") 
     b=input("Enter Second Number:-")
     c=int(a)/int(b)
     print(c)
